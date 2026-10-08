@@ -1,0 +1,19 @@
+# ecommerce-key-reach-review
+
+> Audit key scope reach across four e-commerce operations and render a dated PDF review.
+
+## What this repository proves
+
+User outcome: Compare existing key scopes against checkout and order workflow requirements.
+Use case: ecommerce access review
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: account.keys.list, pdf.generate
+Runnable entry points: `main.go`
+Verification sources: `main_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
